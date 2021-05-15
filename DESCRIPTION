@@ -1,0 +1,13 @@
+Package: trailerswidget
+Title: Trailers Widget Application
+Version: 0.0.0.9000
+Authors@R: person('Esteban', 'Valencia', email = 'evalencia@harryrosen.com', role = c('cre', 'aut'))
+Description: This is the widget application used for selecting trailer items based on an uploaded Excel workbook
+License: MIT + file LICENSE
+Imports: 
+    config (>= 0.3.1),
+    golem (>= 0.3.1),
+    shiny (>= 1.6.0.9000)
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.1.1
