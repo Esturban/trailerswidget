@@ -5,9 +5,28 @@ Authors@R: person('Esteban', 'Valencia', email = 'evalencia@harryrosen.com', rol
 Description: This is the widget application used for selecting trailer items based on an uploaded Excel workbook
 License: MIT + file LICENSE
 Imports: 
+    attempt,
     config (>= 0.3.1),
+    dplyr,
+    DT,
+    glue,
     golem (>= 0.3.1),
-    shiny (>= 1.6.0.9000)
+    htmltools,
+    magrittr,
+    processx,
+    readxl,
+    shiny (>= 1.6.0.9000),
+    shinyjs
 Encoding: UTF-8
 LazyData: true
 RoxygenNote: 7.1.1
+Suggests: 
+    rmarkdown,
+    knitr,
+    spelling,
+    testthat,
+    covr
+Language: en-US
+VignetteBuilder: knitr
+URL: https://github.com/Esturban/trailerswidget
+BugReports: https://github.com/Esturban/trailerswidget/issues
